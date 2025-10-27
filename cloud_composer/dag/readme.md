@@ -71,4 +71,5 @@ dag google transfer operators: https://airflow.apache.org/docs/apache-airflow-pr
 The service Account used by terraform must have composer.environments.create role
 the service account to be used by cloud composer should have: composer.worker role. It would also require other roles based on the DAGs. dags could task composer to use: dataflows, dataproc, bigquery, storage e.t.c. so the SA would requre roles to access this services. 
 Give SA bigquery user and bigquery data editor roles to create tables in bigquery
+link to cloud composer project: https://github.com/terraform-google-modules/terraform-google-composer/blob/main/modules/create_environment_v3/main.tf
 
