@@ -74,3 +74,6 @@ Give SA bigquery user and bigquery data editor roles to create tables in bigquer
 ### GITHUB LINK ###
 link to cloud composer project: https://github.com/terraform-google-modules/terraform-google-composer/blob/main/modules/create_environment_v3/main.tf
 
+## TERRAFORM FUNCTIONS ###
+LINK: https://developer.hashicorp.com/terraform/language/functions/contains
+
